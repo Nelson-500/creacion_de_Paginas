@@ -1,5 +1,31 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+}
+
+/* Estilos Generales */
+header{
+    background-color: #2c2c2c;
+    padding: 10px 50px;
+}
+.image-container{
+    display: flex;
+}
+.image-container img{
+    width: 100%;
+}
+
+/* estilos de header */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+#logo{
+    width: 50px;
+}
+#logo{
+    border-radius: 100%;
+    border: 3px solid rgb(226, 106, 8);
 }
