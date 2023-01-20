@@ -29,3 +29,23 @@ header{
     border-radius: 100%;
     border: 3px solid rgb(226, 106, 8);
 }
+
+/* estilos del hero */
+#hero{
+    position: relative;
+}
+#hero #fondo{
+    display: inline-block;
+    width: 100%;
+}
+#hero .informacion-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#hero .informacion-container #foto{
+    width: 200px;
+}
+#hero .informacion-container #foto img{
+    border-radius: 100%;
+}
